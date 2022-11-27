@@ -11,21 +11,34 @@
     src: url("font/PressStart2P-Regular.ttf");
 }
 
+/*Index page stuff*/
 .indexGif{
     width: 150px;    
 }
 
-.indexHeader{
+.CenterMe{
     text-align: center;
     align-items: center;
 }
 
-.indexHeader,h1{
+.indexHeader,h1,h6{
     font-size: 20px;
     color: white;
 }
 
-.indexList,li,a{
+.indexList{
+    text-align: center;
+    align-items: center;
+    margin-top: 80px;
+    text-decoration: none;
+}
+.indexListLi{
+    text-align: center;
+    align-items: center;
+    margin-top: 80px;
+    text-decoration: none;
+}
+.indexListA{
     text-align: center;
     align-items: center;
     margin-top: 80px;
@@ -43,3 +56,64 @@ a {
     box-shadow: inset 300px 0 0 0 white;
     color: black;
   }
+  
+  .indexFooter{
+    text-align: center;
+    align-items: center;
+    margin-top: 80px;
+    text-decoration: none;
+    margin-bottom: 50px;
+  }
+
+/*Interets and hobbies*/
+
+
+  .CenterMeIH{
+    text-align: center;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    margin-top: 80px;
+}
+.CenterMeIH h1{
+    text-decoration: underline;
+}
+.CenterMeIH p{
+    padding-top: 10px;
+}
+
+.canvasBox{
+    margin-top: 10px;
+    align-items: center;
+    text-align: center;
+}
+
+.generateButton{
+    margin: auto;
+    display: flex;
+    margin-top: 10px;
+    height: 30px;
+    align-items: center;
+    text-align: center;
+
+}
+
+/*Version Log*/
+.WrapperVL{
+    margin-top: 80px;
+    text-align: center;
+    align-items: center;
+    border: solid black 4px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+.itemVL{
+    margin-top: 15px;
+    list-style: none;
+}
