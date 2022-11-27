@@ -1,0 +1,45 @@
+* {                                         
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;       
+    font-family: "retro";
+    background-color: rgb(68, 68, 68);
+}
+
+@font-face {
+    font-family: "retro";
+    src: url("font/PressStart2P-Regular.ttf");
+}
+
+.indexGif{
+    width: 150px;    
+}
+
+.indexHeader{
+    text-align: center;
+    align-items: center;
+}
+
+.indexHeader,h1{
+    font-size: 20px;
+    color: white;
+}
+
+.indexList,li,a{
+    text-align: center;
+    align-items: center;
+    margin-top: 80px;
+    text-decoration: none;
+}
+a {
+    box-shadow: inset 0 0 0 0 white;
+    color: white;
+    margin: 0 -.25rem;
+    padding: 0 .25rem;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+    
+  }
+  a:hover {
+    box-shadow: inset 300px 0 0 0 white;
+    color: black;
+  }
