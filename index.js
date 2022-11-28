@@ -1,3 +1,4 @@
+//Char creator
 window.onload = function(){
     //body
     var avatarBody = new Image();
@@ -16,7 +17,7 @@ window.onload = function(){
     avatarBrows.src = avatarBrowsName;
     //eyes
     var avatarEyes = new Image();
-    var avatarEyesNum = Math.floor(Math.random()*19)+1;
+    var avatarEyesNum = Math.floor(Math.random()*18)+1;
     var avatarEyesName ="avatar/" + "eyes" + avatarEyesNum + ".png";
     avatarEyes.src = avatarEyesName;
     //headpiece
@@ -65,6 +66,8 @@ window.onload = function(){
         ctx.drawImage(avatarBackground,((512-avatarBackground.width)/2),0);
         //body
         ctx.drawImage(avatarBody,((512-avatarBody.width)/2),0);
+        //brows
+        ctx.drawImage(avatarBrows,((512-avatarBrows.width)/2),0);
         //Headpice
         ctx.drawImage(avatarHeadpiece,((512-avatarHeadpiece.width)/2),0);
         //eyes
